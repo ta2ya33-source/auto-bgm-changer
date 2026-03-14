@@ -1,0 +1,20 @@
+# 設定・デバッグファイルを除外
+config.json
+debug_screenshot.png
+__pycache__/
+
+# 途中経過の旧バージョンや一時ファイルを除外
+# 例：ファイル名に v0.1 などが入っているものをすべて除外する場合
+*v0.*.py
+*_old.py
+*_bak.py
+*.bat
+
+# 素材フォルダをまるごと除外（著作権保護のため）
+bgm/
+target/
+amb/
+templates/
+bak/
+.vscode/
+.antigravity/
